@@ -6,7 +6,7 @@ veracode_static_scan:
     # Leaving them both blank means this will never run
     branches_to_run:
       - '*'
-    branches_to_exclude:
+    branches_to_exclude: 
   pull_request:
     trigger: true
     action:
